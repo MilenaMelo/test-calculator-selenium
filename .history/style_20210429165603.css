@@ -1,0 +1,26 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-color: #2B2A3A;
+    color: #FFF;
+}
+
+input {
+    all: unset;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button {
+    width: 154px;
+    margin-right: 24px;
+    border: 1px solid #FE0078;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #545454;
+    padding: 12px 24px;
+    background-color: transparent;
+}

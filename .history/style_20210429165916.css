@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-color: #2B2A3A;
+}
+
+input {
+    all: unset;
+    width: 20rem;
+    height: 35px;
+    border: #FFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+button {
+    width: 154px;
+    margin-right: 24px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #545454;
+    padding: 12px 24px;
+    background-color: transparent;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        <input type='number' id="one" name="one" value=''>
+        <input type='number' id="two" name="two" value=''>
+        <button id="soma" onclick="soma()"> Somar </button>
+        <br />
+        <br />
+        Resultado: 
+        <span id="result"></span>
+
+        <script type="text/javascript">
+            var result = 0;
+            function soma (event) {
+                let one = document.querySelector('#one').value;
+                let two = document.querySelector('#two').value; 
+                result = Number(one) + Number(two);
+
+                document.querySelector('#result').innerHTML = result;
+            }
+        </script>
+    </body>
+</html>

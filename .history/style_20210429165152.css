@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-color: #2B2A3A;
+}
+
+input {
+    height: 52px;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+    color: #545454;
+}
